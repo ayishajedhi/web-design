@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+
+.header{
+
+    width:100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position:fixed;
+    background-image:white;
+   
+   
+}
+
+body{
+    background-image: url(site2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.image-container{
+   
+    background-color: white;
+    width:100%;
+    height: 100px;
+    
+    
+}
+.select{
+
+    outline:none;
+    min-width:100px;
+    height:26px;
+    background:transparent;
+    border-radius:5px;
+}
+
+.contant{
+    color:white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+   
+}
+.contant p{
+        
+    font-size: 40px;
+}
+
+.contant p1{
+
+    font-size: 55px;
+}
+
+button{
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-left: 100px;
+}
+
+.sign-box {
+    position: absolute;
+    top:140px;
+    right:7%;
+}
+
+form{
+     height: 400px;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     background-color: white;
+     width: 420px;
+     box-shadow: 1px 1px 10px;
+     padding: 50px 20px;
+     float:right;
+     position:static;
+    
+}
+.container.input-box{
+   
+    width: 100%;
+    height:60px;
+    position: relative;
+    margin: 30px 0px;
+    
+    
+}
+
+.input-box input{
+
+    width: 100%;
+    height: 30px;
+}
+
+.input-passbox input{
+
+    width:100%;
+    height: 30px;
+    display: flex;
+   
+    
+}
+
+.container.remember-forgot{
+   
+    font-size: 10.5px;
+}
+.remember-forget label input{
+
+    color:#fff;
+    margin-right:3px;
+    font-weight: bold;
+}
+
+.remember-forget a{
+
+    color: #fff;
+    font-weight: bold;
+    
+}
+.forget{
+ float:right;
+
+}
+
+.btn{
+    
+    float:right;
+    width:100%;
+    height: 35px;
+    margin-top: 30px;
+    background-color: orangered;
+    
+}
+.acc{
+
+    float:right;
+}
+#login-form{
+
+   position: relative;
+
+}
